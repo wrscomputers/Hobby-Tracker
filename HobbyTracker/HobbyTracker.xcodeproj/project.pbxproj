@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383E18D4246DA4C000E1555D /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E18D3246DA4C000E1555D /* FriendsListViewController.swift */; };
+		383E18D6246DA4F800E1555D /* NewFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E18D5246DA4F800E1555D /* NewFriendViewController.swift */; };
 		46DD718F246AFE5C00366815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD718E246AFE5C00366815 /* AppDelegate.swift */; };
 		46DD7191246AFE5C00366815 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD7190246AFE5C00366815 /* SceneDelegate.swift */; };
 		46DD7193246AFE5C00366815 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD7192246AFE5C00366815 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		383E18D3246DA4C000E1555D /* FriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
+		383E18D5246DA4F800E1555D /* NewFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFriendViewController.swift; sourceTree = "<group>"; };
 		46DD718B246AFE5C00366815 /* HobbyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DD718E246AFE5C00366815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46DD7190246AFE5C00366815 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383E18D7246DA62D00E1555D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46DD718E246AFE5C00366815 /* AppDelegate.swift */,
+				46DD7190246AFE5C00366815 /* SceneDelegate.swift */,
+				46DD7197246AFE5E00366815 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		383E18D8246DA65200E1555D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46DD7192246AFE5C00366815 /* ViewController.swift */,
+				383E18D3246DA4C000E1555D /* FriendsListViewController.swift */,
+				383E18D5246DA4F800E1555D /* NewFriendViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		383E18D9246DA66600E1555D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46DD7194246AFE5C00366815 /* Main.storyboard */,
+				46DD7199246AFE5E00366815 /* LaunchScreen.storyboard */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		383E18DA246DA68200E1555D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		46DD7182246AFE5C00366815 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +96,10 @@
 		46DD718D246AFE5C00366815 /* HobbyTracker */ = {
 			isa = PBXGroup;
 			children = (
-				46DD718E246AFE5C00366815 /* AppDelegate.swift */,
-				46DD7190246AFE5C00366815 /* SceneDelegate.swift */,
-				46DD7192246AFE5C00366815 /* ViewController.swift */,
-				46DD7194246AFE5C00366815 /* Main.storyboard */,
-				46DD7197246AFE5E00366815 /* Assets.xcassets */,
-				46DD7199246AFE5E00366815 /* LaunchScreen.storyboard */,
+				383E18D9246DA66600E1555D /* Model */,
+				383E18D8246DA65200E1555D /* View */,
+				383E18DA246DA68200E1555D /* Controller */,
+				383E18D7246DA62D00E1555D /* Resources */,
 				46DD719C246AFE5E00366815 /* Info.plist */,
 			);
 			path = HobbyTracker;
@@ -138,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383E18D4246DA4C000E1555D /* FriendsListViewController.swift in Sources */,
 				46DD7193246AFE5C00366815 /* ViewController.swift in Sources */,
 				46DD718F246AFE5C00366815 /* AppDelegate.swift in Sources */,
+				383E18D6246DA4F800E1555D /* NewFriendViewController.swift in Sources */,
 				46DD7191246AFE5C00366815 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
